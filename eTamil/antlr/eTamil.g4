@@ -2,9 +2,11 @@ grammar eTamil;
 
 program: statement+ ;
 
-statement: assignment | expression ;
+statement: assignment | expression | printStmt ;
 
 assignment: IDENTIFIER '=' expression ;
+
+printStmt: 'accu' '(' expression ')' ;
 
 expression: term (( '+' | '-' ) term)* ;
 

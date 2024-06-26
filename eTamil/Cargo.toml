@@ -1,0 +1,11 @@
+[package]
+name = "eTamil"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+inkwell = "0.4"
+antlr4 = { git = "https://github.com/rrevenantt/antlr4-rust.git" }
+
+[build-dependencies]
+antlr4 = { git = "https://github.com/rrevenantt/antlr4-rust.git" }

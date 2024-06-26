@@ -1,0 +1,13 @@
+{
+    "name": "eTamil Compiler Dev Container",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+      "rust-lang.rust-analyzer",
+      "matklad.rust-analyzer"
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "cargo build"
+  }
+  

@@ -1,5 +1,5 @@
 {
-    "name": "eTamil Compiler Dev Container",
+    "name": "eTamil Dev Container",
     "dockerFile": "Dockerfile",
     "extensions": [
       "rust-lang.rust-analyzer",

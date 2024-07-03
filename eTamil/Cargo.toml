@@ -5,7 +5,8 @@ edition = "2021"
 
 [dependencies]
 inkwell = "0.4"
-antlr-rust = { git = "https://github.com/rrevenantt/antlr4rust.git" }
+antlr-rust = { git = "https://github.com/rrevenantt/antlr4rust.git", rev = "360bc024" }
+
 
 [build-dependencies]
 antlr-rust = { git = "https://github.com/rrevenantt/antlr4rust.git" }
